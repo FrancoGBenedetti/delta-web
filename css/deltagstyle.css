@@ -1,3 +1,4 @@
+
 * {
   font-family: 'open sans', sans-serif;
   -webkit-box-sizing: border-box;
@@ -106,4 +107,14 @@ div#myCarousel div.carousel-inner div.item img {
 
 .navbar {
   padding-right: 0px;
+}
+
+footer{
+  padding: 24px;
+  background-color: #008FC3;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
