@@ -67,13 +67,12 @@ div#myCarousel .carousel-control.right {
 div#myCarousel .carousel-control.left {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.5) 50%);
   padding-left: -5px;
-  left: 15px;
+  left: 0px;
 }
 
 div#myCarousel div.carousel-inner {
-  margin-left: 15px;
-  border: 2px;
-  border-color: black;
+  margin-left: 0px;
+  border: 0px;
 }
 
 div#myCarousel div.carousel-inner div.item {
@@ -90,7 +89,7 @@ div#myCarousel div.carousel-inner div.item img {
 	margin: 0px 200px;
 }*/
 .box {
-  padding-left: 10px;
+  padding-left: 0px;
   padding-right: 0px;
 }
 
