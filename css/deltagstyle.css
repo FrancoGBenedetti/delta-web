@@ -1,3 +1,4 @@
+
 * {
   font-family: 'open sans', sans-serif;
   -webkit-box-sizing: border-box;
@@ -97,7 +98,7 @@ div#myCarousel div.carousel-inner div.item img {
   margin-top: 10px;
 }
 
-.container {
+.container{
   margin: 100px auto;
   -webkit-box-shadow: 0px 0px 5px grey;
   padding: 0px;
@@ -106,4 +107,8 @@ div#myCarousel div.carousel-inner div.item img {
 
 .navbar {
   padding-right: 0px;
+}
+
+footer{
+  background-color: #008FC3;
 }
