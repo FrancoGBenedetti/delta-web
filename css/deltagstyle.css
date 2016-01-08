@@ -110,5 +110,11 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 footer{
+  padding: 24px;
   background-color: #008FC3;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
