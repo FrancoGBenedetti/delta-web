@@ -137,10 +137,20 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .social {
-  display: inline-block;
+  display: block;
   margin: 0px auto;
+  margin-top: 24px;
 }
 
 .social iframe {
   width: 480px;
+}
+
+.social * {
+  margin-right: 24px;
+}
+
+.footer-social a:link, .footer-social a:visited, .footer-social a:hover, .footer-social a:active {
+  text-decoration: none;
+  color: white;
 }
