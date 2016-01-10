@@ -4,36 +4,37 @@
 }
 
 body{
-	
-}	
+
+}
 
 nav{
-	background-color: #008FC3;
+	//background-color: #008FC3;
 	width: 100%;
 	display: inline-block;
-	//margin: 5px 0px;
-	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+	margin: 5px 0px;
+	margin-bottom: -15px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	//height: 50px;
 
 
 	figure{
 		padding: 6px;
 		//width: 5px;
-		text-align: left;
+		text-align: center;
 		//height: 95px;
 		display: inline-block;
 		//background-color: white;
 		
 		img{
-			margin-left: 200px;
+			margin-left: 100px;
 			width: 120px;
 		}
 	}
 	
 	ul{
-		text-align: center;
+		text-align: right;
 		padding: 0px;
 		margin: 0px;
 		
@@ -45,11 +46,16 @@ nav{
 			transition: background-color 0.6s linear 0.5s;
 			transition: box-shadow 0.1s linear 0.3s;
 			font-size: 14px;
-			font-weight: bold;
+			//font-weight: bold;
 			vertical-align: center;
 			
 			a{
-				color: white;
+				color: black;
+
+			}
+			a:hover{
+				text-decoration: none;
+				color: black;
 
 			}			
 		}
@@ -112,10 +118,6 @@ div#myCarousel{
 	}
 }
 
-/*.row{
-	margin: 0px 200px;
-}*/
-
 .box{
 
 	//background-color: black;
@@ -130,23 +132,28 @@ div#myCarousel{
 }
 
 .container-box{
-
-	margin: 0px auto;
-	margin-top: 100px;
+	//margin: 0px auto;
+	//margin-top: 100px;
 	-webkit-box-shadow: 0px 0px 5px grey;
 	padding: 0px;
 	background-color: white;
-	//width: 100%;
+	width: 100%;
 	border-radius: 10px;
 }
 
 .container-box-2{
 	//background-color: rgba(0,143,195,0.3);
-	border-bottom: dotted 1px solid black;
+	
 	.clients{
+		//border-style: solid;
+		//border-width: 1px;
+		text-align: center;
+		padding:20px;
+		//border-radius: 10px;
+		width: 100%;
 		figure{
 			display: inline-block;
-			margin-top: 50px;
+			
 			margin-right: 25px;
 			img{
 				width: 150px;
@@ -157,15 +164,18 @@ div#myCarousel{
 
 .navbar{
 	padding-right: 0px;
+	margin-bottom: 10px;
+
 }
 
 .social{
 	display: block;
 	margin: 0px auto;
-	margin-top: 24px;
+	//background-color: rgba(0,143,195,0.7);
+	padding: 50px;
 	
-	iframe{
-		width: 480px;
+	.twitter-timeline{
+		max-width: 300px;
 	}
 }
 
@@ -173,10 +183,14 @@ div#myCarousel{
 	margin-right: 24px;
 }
 
-.footer-social{
-	
+.footer-social{	
 	a:link, a:visited, a:hover, a:active{
 		text-decoration: none;
 		color: white;
 	}
+}
+
+.container{
+	margin-right: 0px;
+	margin-left: 0px;
 }
